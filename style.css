@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Sedgwick+Ave+Display&display=swap');
+
+h1 {
+  font-family: "Sedgwick Ave Display", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+	letter-spacing: 5px;
+}
+label {
+  font-family: "Nanum Pen Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: url("./assets/bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+/*	overflow: hidden;*/
+
+}
+img{
+	margin-top: 50px;
+}
+section{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+	text-align: center;
+}
+span{
+	color: #F10E35;
+}
+
+.desc,.foot{
+	font-size: 34px;
+	font-family: "Nanum Pen Script", cursive;
+
+}
+.form-in{
+	display: flex;
+	gap: 20px;
+}
+.btn{
+	display: flex;
+	gap: 20px;
+	align-items: center;
+	justify-content: center;
+	margin-top: 10px;
+}
+button{
+	background-color: #F10E35;
+	border: 1px solid white;
+	color: white;
+	border-radius: 50px;
+	width: 170px;
+	height: 55px;
+	font-size: 25px;
+	font-family: "Nanum Pen Script", cursive;
+	cursor: pointer;
+	box-shadow: 0px 4px 10px #00000045;
+}
+input{
+	width: 290px;
+	height: 50px;
+	border-radius: 5px;
+	font-size: 25px;
+	font-family: "Nanum Pen Script", cursive;
+	text-align: center;
+	outline: none;
+	border:1px solid #DB2645;
+	box-shadow: 0px 4px 10px #00000045;
+	margin-top: 10px;
+}
+h3{
+	font-size: 56px;
+	font-family: "Sedgwick Ave Display", cursive;
+	letter-spacing: 10px;
+	color: #F10E35;
+}
+.right{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.head{
+	margin-bottom: 20px;
+}
+.thank{
+	font-size: 20px;
+	font-family: "Nanum Pen Script", cursive;
+	text-align: center;
+	margin-top: -80px;
+}
+
+@media(max-width: 500px) {
+	section{
+		flex-direction: column;
+	}
+	.form-in,.btn{
+		display: flex;
+		flex-direction: column;
+	}
+	img{
+		width: 450px;
+		height: 477px;
+	}
+	body{
+		background-image: none;
+		background-image: linear-gradient(#e89392,white);
+	}
+	.thank{
+		margin: 0;
+	}
+	h1{
+		font-size: 30px;
+	}
+}
