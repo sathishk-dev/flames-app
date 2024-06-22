@@ -1,2 +1,2 @@
 # flames-app
-flames calculator
+This is the flames calculator web application.
