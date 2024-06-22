@@ -1,14 +1,12 @@
 # FLAMES Calculator
 
-![FLAMES Calculator](app.png)
-
 FLAMES Calculator is a fun web app to determine the nature of your relationship with your crush. The acronym FLAMES stands for Friends, Lovers, Affectionate, Marriage, Enemies, and Siblings. Based on the names entered, the app calculates and displays the relationship status.
 
 ## Demo
 
 The application interface is simple and user-friendly. Here's a preview of the app:
 
-![Demo](app.png)
+![Demo](assets/app.png)
 
 ## Features
 
