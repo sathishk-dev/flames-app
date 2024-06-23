@@ -112,11 +112,11 @@ h3{
 	img{
 		width: 400px;
 		height: 427px;
-		overflow:hidden;
 	}
 	body{
 		background-image: none;
 		background-image: linear-gradient(#e89392,white);
+		overflow-x: hidden;
 	}
 	.thank{
 		margin: 0;
